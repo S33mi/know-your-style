@@ -10,7 +10,7 @@ Fashion & clothing data explorations — discovering trends, styles, prices, cat
 
 - Turning curiosity about fashion into data-driven insights.
 
-- Builds on my existing skills: EDA, visualization, anomaly detection, Jupyter notebooks.
+- Builds on my existing skills: EDA, visualization, classification, anomaly detection, Jupyter notebooks.
 
 - Fun & relatable — "know your style" with numbers behind it!
 
@@ -18,8 +18,9 @@ Fashion & clothing data explorations — discovering trends, styles, prices, cat
 
 ## Current Notebooks / Work
 
-- `fashion_products_eda.ipynb` → Exploratory analysis of clothing catalogs (categories, prices, brands, ratings, trends)
+- [`fashion_products_eda.ipynb`](https://github.com/S33mi/know-your-style/blob/main/notebooks/fashion_products_eda.ipynb) → Exploratory analysis of clothing catalogs (categories, prices, brands, ratings, trends)
 
+- [`fashion_mnist_eda_classification.ipynb`](https://github.com/S33mi/know-your-style/blob/main/notebooks/fashion_mnist_eda_classification.ipynb) → EDA + CNN based classification to classify items (T-shirt, Trouser, Dress, etc.).
 
 
 More coming soon: style clustering, price vs. rating insights, color trends, recommendation ideas, or "what's trending" summaries.
@@ -38,7 +39,7 @@ More coming soon: style clustering, price vs. rating insights, color trends, rec
 
 - [Fashion MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist)  
 
-  → If you want to dip into image classification later
+  → Currently using for image classification of mutliple fashion items
 
 - Others: Adidas retail products [Adidas Fashion Retail Products](https://www.kaggle.com/datasets/thedevastator/adidas-fashion-retail-products-dataset-9300-prod) 1.5K Adidas products (price, availability, color, rating), clothing sales datasets, etc.
 
@@ -50,13 +51,14 @@ Run everything in Google Colab — no install needed!
 
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/S33mi/know-your-style/blob/main/fashion_products_eda.ipynb)
+- `fashion_products_eda.ipynb` → [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/S33mi/know-your-style/blob/main/notebooks/fashion_products_eda.ipynb)
 
+- `fashion_mnist_eda_classification.ipynb` → [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/S33mi/know-your-style/blob/main/notebooks/fashion_mnist_eda_classification.ipynb)
 
 
 ## Skills Showcased
 
-Python · Pandas · Matplotlib/Seaborn/Plotly · Data Visualization · EDA · E-commerce Analysis
+Python · Pandas · Matplotlib/Seaborn/Plotly · Data Visualization · EDA · E-commerce Analysis · Tensorflow/Keras · Classification
 
 
 
